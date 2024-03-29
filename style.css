@@ -1,0 +1,203 @@
+.Container{
+    background: rgba(192, 219, 217, 1);
+    width: 1200px;
+    height: 1000px;
+    margin: 0px 110px 0px 110px;
+}
+.header{
+    padding: 30.5px 934px 30.5px 30px;
+    margin: 15px;
+    background: rgba(127, 175, 246, 1);
+}
+.Header-Button{
+    width: 206px;
+    height: 39px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+    background: rgba(165, 199, 249, 1);
+    text-decoration: none;
+    }
+.Header-Button:hover{
+    background: rgb(125, 169, 236);
+}
+.Container-Number{
+    background: rgba(179, 249, 90, 1);
+    margin: 15px;
+}
+.item-1{
+    font-family: Roboto;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 62.11px;
+    color: white;
+    background: rgba(138, 209, 145, 1);
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.item-2{
+    font-family: Roboto;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 62.11px;
+    color: white;
+    background: rgba(138, 209, 145, 1);
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.item-3{
+    font-family: Roboto;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 62.11px;
+    color: white;
+    background: rgba(138, 209, 145, 1);
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-4{
+    font-family: Roboto;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 62.11px;
+    color: white;
+    background: rgba(138, 209, 145, 1);
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.item-5{
+    font-family: Roboto;
+    font-size: 53px;
+    font-weight: 400;
+    color: white;
+    background: rgba(138, 209, 145, 1);
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container-1st-Line{
+    display: grid;
+    grid-template-columns: 4fr 6fr 2fr;
+}
+.Container-2nd-Line{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+}
+.Container-Rectangle{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    background: rgba(136, 181, 191, 1);
+    margin: 15px;
+}
+.rectangle{
+    background: rgba(13, 137, 176, 1);
+    width: 255px;
+    height: 199px;
+    margin: 30px;
+}
+.footer{
+    height: 100px;
+    background: rgba(127, 175, 246, 1);
+    margin: 15px;
+    margin-top: 100px;
+}
+.modalbackground {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .modalbackground:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .modalwindow {
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 2%;
+    background: #fff;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .modalwindow h3 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .modalwindow p {
+    padding: 0;
+    margin: 4% 0 8% 0;
+  }
+  
+  .modalwindow a {
+    display: block;
+    color: #fff;
+    background: #369;
+    padding: 2%;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .modalwindow a:hover {
+    background: #47a;
+  }
+  @media only screen and (max-width: 425px) {
+    .rectangle{
+        width: 63px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .rectangle{
+        width: 127px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .rectangle{
+        width: 190px;
+        height: 150px;
+    }
+}
+  
+    
